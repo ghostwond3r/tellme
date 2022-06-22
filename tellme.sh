@@ -33,13 +33,11 @@ lolcat <<"EOF"
 
 EOF
 
-</br>
 
 echo -e "$OKRED +---Collecting subdomains---+ $RESET"
 
         python3 /usr/lib/python3/dist-packages/sublist3r.py -v -d $TARGET -o sub.txt
 
-</br>
 
 if [ -z "$SUB" ];
         then
@@ -50,7 +48,6 @@ if [ -z "$SUB" ];
                 getips -d $SUB -o ips.txt -v
         fi
 
-</br>
 
 if [ -z "$IPS" ];
         then
@@ -60,7 +57,5 @@ if [ -z "$IPS" ];
                 echo -e "$OKORANGE +---Starting Nmap---+ $RESET"
                 nmap -v -iL $IPS -oN results.txt
         fi
-
-</br>
 
 echo -e "$OKBLUE +---Done! Results saved in results.txt---+ $RESET"
