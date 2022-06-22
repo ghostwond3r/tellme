@@ -17,6 +17,8 @@ This is to save little time on ;
 
     cd tellme
 
+    chmod +x install.sh
+
     ./install.sh
     
 ![ss2](https://user-images.githubusercontent.com/64184513/175052794-be3f76e6-3d5c-411f-b264-223d915b3d34.jpg)
