@@ -9,6 +9,7 @@ This is to save little time on ;
 
     - The basic Nmap scan on those IPs 
 
+![ss1](https://user-images.githubusercontent.com/64184513/175052371-514f91e2-8821-4f9b-b2df-f1a541780530.jpg)
 
 ## Installation
 
