@@ -55,7 +55,7 @@ if [ -z "$IPS" ];
                 exit
         else         
                 echo -e "$OKORANGE +---Starting Nmap---+ $RESET"
-                nmap -v --top-ports -iL $IPS -oN results.txt
+                nmap -v --script vuln -iL $IPS -oN results.txt
         fi
 
 echo -e "$OKBLUE +---Done! Results saved in results.txt---+ $RESET"
